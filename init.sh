@@ -1,20 +1,17 @@
 #!/bin/bash
-#SCRIPT DE SCANFULL#
 
-echo "ENTRADA DE PARAMETROS DA REDE IP:"
+# Script SCANFULL
 
+echo "Entrada de parâmetros da rede IP:"
 read rhosts;
 
-echo "INFORME AS PORTAS:"
-
+echo "Informe as portas:"
 read ports;
 
-echo "TIPOS DOS TOPICOS:"
-
+echo "Tipo dos tópicos:"
 read threads;
 
 echo "
-
 use auxiliary/scanner/portscan/ack
 set rhosts  $rhosts
 set ports   $ports
